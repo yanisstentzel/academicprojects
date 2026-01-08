@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5; /* Gris très clair doux */
+    background-color: #f0f2f5; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 strong {
-    color: #4a90e2; /* Bleu agréable */
+    color: #4a90e2; 
 }
 
 /* Conteneur du jeu pour gérer la superposition */
@@ -41,7 +41,7 @@ strong {
     position: relative;
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
     border-radius: 8px;
-    overflow: hidden; /* Pour que les coins arrondis s'appliquent au canvas */
+    overflow: hidden; 
 }
 
 canvas {
@@ -78,6 +78,27 @@ p {
     font-size: 1.2rem;
     margin-bottom: 30px;
     color: #555;
+}
+
+.footer-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.readme-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #34495e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.readme-btn:hover {
+    background-color: #2c3e50;
+    text-decoration: underline;
 }
 
 button {
