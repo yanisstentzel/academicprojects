@@ -1,45 +1,30 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/styles/style.css">
-<script src="script/script.js" defer></script>
-<title>Casse-Briques</title>
+    <title>Casse-Briques</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <body>
-        <canvas id="particles"></canvas>
-        <div id="gameContainer">
-            <div id="ui">
-                <div class="ui-item">
-                    <div class="ui-label">Score</div>
-                    <div class="ui-value" id="score">0</div>
-                </div>
-                <div class="ui-item">
-                    <div class="ui-label">Niveau</div>
-                    <div class="ui-value" id="level">1</div>
-                </div>
-                <div class="ui-item">
-                    <div class="ui-label">Vies</div>
-                    <div class="ui-value" id="lives">3</div>
-                </div>
-            </div>
-    
-            <div id="startScreen">
-                <h1>QUANTUM BREAKOUT</h1>
-                <button id="startBtn">Commencer</button>
-                <div class="instructions">
-                    Déplace avec la souris • Espace pour lancer
-                </div>
-            </div>
-    
-            <div id="gameOverScreen" class="hidden">
-                <h1 id="endTitle">GAME OVER</h1>
-                <div class="ui-value" style="margin-bottom: 30px;">Score: <span id="finalScore">0</span></div>
-                <button id="restartBtn">Rejouer</button>
-            </div>
-    
-            <canvas id="gameCanvas"></canvas>
+
+    <div class="container">
+        <div id="info-bar">
+            <span>Score : <strong id="score">0</strong></span>
+            <span>Record : <strong id="high-score">0</strong></span>
         </div>
+
+        <div class="game-wrapper">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+            <div id="start-screen" class="overlay">
+                <h1>Casse-Briques</h1>
+                <p>Appuie sur le bouton pour lancer</p>
+                <p>Utilise la souris pour bouger !</p>
+                <button id="start-btn">JOUER</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
