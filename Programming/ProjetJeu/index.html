@@ -1,0 +1,45 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/styles/style.css">
+<script src="script/script.js" defer></script>
+<title>Casse-Briques</title>
+</head>
+<body>
+    <body>
+        <canvas id="particles"></canvas>
+        <div id="gameContainer">
+            <div id="ui">
+                <div class="ui-item">
+                    <div class="ui-label">Score</div>
+                    <div class="ui-value" id="score">0</div>
+                </div>
+                <div class="ui-item">
+                    <div class="ui-label">Niveau</div>
+                    <div class="ui-value" id="level">1</div>
+                </div>
+                <div class="ui-item">
+                    <div class="ui-label">Vies</div>
+                    <div class="ui-value" id="lives">3</div>
+                </div>
+            </div>
+    
+            <div id="startScreen">
+                <h1>QUANTUM BREAKOUT</h1>
+                <button id="startBtn">Commencer</button>
+                <div class="instructions">
+                    Déplace avec la souris • Espace pour lancer
+                </div>
+            </div>
+    
+            <div id="gameOverScreen" class="hidden">
+                <h1 id="endTitle">GAME OVER</h1>
+                <div class="ui-value" style="margin-bottom: 30px;">Score: <span id="finalScore">0</span></div>
+                <button id="restartBtn">Rejouer</button>
+            </div>
+    
+            <canvas id="gameCanvas"></canvas>
+        </div>
+</body>
+</html>
