@@ -20,7 +20,7 @@ def initialiser():
 def charger_template() -> str:
     """
     Lit le squelette HTML (base.html) qui contient les zones à remplacer {...}.
-    """"
+    """
     chemin = DOSSIER_TEMPLATE / "base.html"
     with open(chemin, "r", encoding="utf-8") as f:
         return f.read()
@@ -159,3 +159,4 @@ def html_detail_set(s: dict) -> str:
     </div>"""
 
     return generer_page(s.get('name', 'Set'), numero, contenu)
+
