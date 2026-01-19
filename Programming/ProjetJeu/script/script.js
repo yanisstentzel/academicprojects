@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const canvas = document.getElementById("gameCanvas");
     const ctx = canvas.getContext("2d");
     const scoreSpan = document.getElementById("score");
-    const highScoreSpan = document.getElementById("high-score"); // Nouveau
+    const highScoreSpan = document.getElementById("high-score"); 
     const startScreen = document.getElementById("start-screen");
     const startBtn = document.getElementById("start-btn");
 
