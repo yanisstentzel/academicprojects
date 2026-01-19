@@ -20,14 +20,14 @@ def calculer_moyenne(notes):
 
 ## Aperçu visuel
 
-![Aperçu du projet](.png)
+![Aperçu du projet](projet-academique.png)
 
 ## Tableau récapitulatif
 
 | Projet         | Langage   | Statut    |
 |----------------|-----------|-----------|
 | Analyse de données | Python    | Terminé   |
-| Site web       | HTML/CSS   | En cours  |
+| Site web       | HTML/CSS   | Terminé  |
 | Simulation     | MATLAB     | À venir   |
 
 *Le dépôt existe pour déposer mes projets existats*
@@ -37,7 +37,7 @@ def calculer_moyenne(notes):
 Clonez le dépôt :
 
 ```bash
-git clone https://github.com/yanisstentzel/academicprojects.git
+git clone https://github.com/yanisstentzel/academicprojects
 ```
 
 Explorez chaque dossier de projet pour des instructions spécifiques.
