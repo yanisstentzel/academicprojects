@@ -30,7 +30,7 @@ def calculer_moyenne(notes):
 | Site web       | HTML/CSS   | Terminé  |
 | Simulation     | MATLAB     | À venir   |
 
-*Le dépôt existe pour déposer mes projets existats*
+*Le dépôt existe pour déposer mes projets existants*
 
 ## Pour commencer
 
